@@ -6,7 +6,7 @@ public class BubbleSort {
         while (swapped) {
             swapped = false;
             for (int index = 0; index < numbers.length - 1; index++) {
-                if (numbers[index] >= numbers[index + 1]) {
+                if (numbers[index] > numbers[index + 1]) {
                     int swapping = numbers[index];
                     numbers[index] = numbers[index + 1];
                     numbers[index + 1] = swapping;
